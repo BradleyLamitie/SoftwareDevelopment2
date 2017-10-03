@@ -1,0 +1,16 @@
+Kathy Coomes
+Bradley Lamitie
+
+Query OK, 0 rows affected (0.14 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-------------+---------+------+-----+---------+-------+
+| Field       | Type    | Null | Key | Default | Extra |
++-------------+---------+------+-----+---------+-------+
+| id          | int(11) | NO   | PRI | 0       |       |
+| description | text    | YES  |     | NULL    |       |
+| first_name  | text    | YES  |     | NULL    |       |
+| last_name   | text    | YES  |     | NULL    |       |
+| email       | text    | YES  |     | NULL    |       |
++-------------+---------+------+-----+---------+-------+
+5 rows in set (0.06 sec)

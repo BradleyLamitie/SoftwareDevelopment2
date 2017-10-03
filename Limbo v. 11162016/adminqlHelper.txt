@@ -1,0 +1,20 @@
+<?php 
+# Who:   Bradley Lamitie and Kathy Coomes
+# What:  Limbo Lost & Found database - adminqlHelper.php
+# When:  Fall 2016 
+# Where: Marist College
+# How:   Created using information and coding taught in CMPT 221 by Professor DeCusatis
+session_start();
+$owner_finder = $_POST['owner_finder'];
+$picture = $_POST['picture'];
+$phone = $_POST['phone'];
+$email = $_POST['email'];
+$idnum = $_POST['idnum'];
+$itemname = $_POST['itemname'];
+$brand = $_POST['brand'];
+$color = $_POST['color'];
+$building = $_POST['building'];
+$room = $_POST['room'];
+$date = $_POST['date'];
+$description = $_POST['description'];
+$status = $_POST['status'];
